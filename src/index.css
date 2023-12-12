@@ -48,6 +48,10 @@ button {
   overflow: hidden;
 }
 
+.absolute {
+  position: absolute;
+}
+
 /* ================================ 
 End Global
 =======================================*/
