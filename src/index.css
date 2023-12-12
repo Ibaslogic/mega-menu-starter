@@ -168,11 +168,6 @@ End Global
   background-color: #fff;
 }
 
-/* .nav__container ul li:focus-within .dropdown, */
-.nav__container ul li:hover .dropdown {
-  visibility: visible;
-}
-
 .dropdown_content {
   font-size: 0.875rem;
 }
@@ -336,7 +331,7 @@ MEDIA QUERIES
     padding-inline: 0.7rem;
   }
 
-  .nav_item_content button {
+  .nav_item_content .md\:hidden {
     display: none;
   }
 
@@ -355,6 +350,11 @@ MEDIA QUERIES
     padding-bottom: 2rem;
     visibility: hidden;
     z-index: 10;
+  }
+
+  /* .nav__container ul li:focus-within .dropdown, */
+  .nav__container ul li:hover .dropdown {
+    visibility: visible;
   }
 
   .nav_item_content:hover a:before,
