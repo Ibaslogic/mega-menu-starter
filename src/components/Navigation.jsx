@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Container from './Container';
 
 import logo from '../assets/logoipsum.svg';
-import UserMenu from './UserMenu';
+import UserProfile from './UserProfile';
 import { AlignJustify } from 'lucide-react';
 
 const Navigation = () => {
@@ -21,7 +21,7 @@ const Navigation = () => {
             <img src={logo} />
           </Link>
 
-          <UserMenu />
+          <UserProfile />
         </div>
       </Container>
     </header>

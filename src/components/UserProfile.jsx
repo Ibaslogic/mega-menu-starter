@@ -1,7 +1,7 @@
 import { UserRoundX } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const UserMenu = () => {
+const UserProfile = () => {
   return (
     <div className="register">
       <div className="block md:hidden">
@@ -17,4 +17,4 @@ const UserMenu = () => {
   );
 };
 
-export default UserMenu;
+export default UserProfile;
